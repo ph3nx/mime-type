@@ -1,0 +1,16 @@
+{
+  "name": "mime-type",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "v0.10.35",
+    "npm": "2.4.1"
+  },
+  "author": "ph3nx",
+  "private": "true"
+}
