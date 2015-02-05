@@ -1,11 +1,21 @@
 # mime-type
 
+Looks up the mime type of files.
+
 # Installation
 ```
-npm i mime-type
+npm i [-g] mime-type
 ```
 
 # Usage
+
+1. require
+```js
+var mt = require('mime-type');
+console.log(mt());
 ```
-require('mime-type')
+
+2. cli
+```
+$ mime-type file.ext
 ```
