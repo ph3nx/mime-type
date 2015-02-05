@@ -4,7 +4,7 @@
   "description": "Check mime type of first command line argument.",
   "main": "lib",
   "scripts": {
-    "test": "mocha -wr should --reporter min --compilers coffee:coffee-script/register"
+    "test": "mocha -r should --reporter min --compilers coffee:coffee-script/register"
   },
   "engines": {
     "node": "v0.10.35",
